@@ -163,48 +163,6 @@ html {
   color: white;
   background: #000;
 }
-/* Gaya untuk gambar PNG tanpa latar belakang */
-.floating-image {
-  position: absolute; /* Gunakan absolute positioning */
-  top: 30px; /* Sesuaikan dengan jarak dari atas */
-  right: 300px; /* Sesuaikan dengan jarak dari kanan */
-  width: 623px; /* Sesuaikan dengan ukuran gambar */
-  height: auto; /* Menjaga proporsi gambar */
-  z-index: 10; /* Pastikan gambar berada di atas elemen lain */
-}
-
-/* Gaya untuk responsif */
-@media (max-width: 1290px) {
-  .floating-image {
-      width: 400px; /* Ukuran gambar lebih kecil pada layar kecil */
-      top: 10px; /* Sesuaikan jarak untuk layar kecil */
-      right: 200px; /* Sesuaikan jarak untuk layar kecil */
-  }
-}
-/* Gaya untuk responsif */
-@media (max-width: 1050px) {
-  .floating-image {
-      width: 250px; /* Ukuran gambar lebih kecil pada layar kecil */
-      top: 10px; /* Sesuaikan jarak untuk layar kecil */
-      right: 200px; /* Sesuaikan jarak untuk layar kecil */
-  }
-}
-/* Gaya untuk responsif */
-@media (max-width: 768px) {
-  .floating-image {
-      width: 230px; /* Ukuran gambar lebih kecil pada layar kecil */
-      top: 10px; /* Sesuaikan jarak untuk layar kecil */
-      right: 100px; /* Sesuaikan jarak untuk layar kecil */
-  }
-}
-/* Gaya untuk responsif */
-@media (max-width: 457px) {
-  .floating-image {
-      width: 220px; /* Ukuran gambar lebih kecil pada layar kecil */
-      top: 10px; /* Sesuaikan jarak untuk layar kecil */
-      right: 100px; /* Sesuaikan jarak untuk layar kecil */
-  }
-}
 
 /* all similar content styling code */
 section {
